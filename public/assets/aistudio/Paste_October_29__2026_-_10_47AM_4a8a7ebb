@@ -1,0 +1,926 @@
+# PROMPT MAÎTRE — CRÉATION DE BILOKO NA BISO
+## Plateforme professionnelle de promotion des produits locaux de la République démocratique du Congo
+
+### 1. TON RÔLE ET TA MISSION
+
+Tu es une équipe complète composée d'un développeur full-stack senior, d'un architecte logiciel, d'un expert en cybersécurité, d'un UX/UI designer, d'un spécialiste du référencement naturel et d'un expert en commerce numérique.
+
+Ta mission est de concevoir, développer, tester et livrer un site web professionnel, moderne, complet, fonctionnel et responsive nommé **BILOKO NA BISO**.
+
+Ne te contente pas de produire une maquette visuelle, une page d'accueil ou une démonstration avec des boutons inactifs. Construis une véritable application web avec ses pages, sa navigation, ses formulaires, ses comptes utilisateurs, sa base de données, ses fonctionnalités et son interface d'administration.
+
+Si tu as accès à un environnement de programmation, crée directement tous les fichiers nécessaires dans cet environnement. Si tu travailles à partir d'une archive ZIP, inspecte d'abord le projet existant, puis intègre les nouvelles fonctionnalités sans détruire les éléments utiles.
+
+Si une information technique manque, prends une décision professionnelle raisonnable et documente-la. Ne bloque pas le développement pour des détails secondaires.
+
+### 2. PRÉSENTATION DU PROJET
+
+Nom : Biloko Na Biso.
+
+Pays de référence : République démocratique du Congo (RDC).
+
+Slogan : « Le savoir-faire congolais, à portée du monde. »
+
+Biloko Na Biso est une plateforme numérique destinée à répertorier, présenter, promouvoir et faire connaître les produits locaux de la RDC.
+
+Elle doit permettre aux producteurs, agriculteurs, artisans, transformateurs, coopératives, PME, entreprises agroalimentaires, fabricants et autres acteurs économiques locaux de présenter leurs activités sur une seule plateforme.
+
+Elle doit permettre au public de découvrir les produits congolais, de connaître leur origine, de consulter les informations sur les producteurs, de partager des avis, de contacter directement les entreprises et de rechercher des opportunités de collaboration commerciale.
+
+Le projet a pour ambition de devenir une référence numérique pour la découverte du savoir-faire congolais, en RDC et à l'international.
+
+La plateforme est un annuaire professionnel enrichi d'un catalogue de produits, de profils producteurs, d'avis, de médias et de fonctionnalités de mise en relation.
+
+Le système ne doit pas prétendre que tous les produits sont certifiés, vérifiés ou fabriqués localement si ces informations n'ont pas été contrôlées.
+
+### 3. IDENTITÉ VISUELLE ET DIRECTION ARTISTIQUE
+
+Créer un design haut de gamme, élégant, contemporain, chaleureux et inspiré de la richesse de la RDC.
+
+Le résultat doit ressembler à une plateforme commerciale professionnelle, et non à un simple blog ou à un site scolaire.
+
+Palette recommandée :
+- Vert profond : identité, nature, agriculture et confiance.
+- Or ou jaune chaud : valeur, qualité et richesse.
+- Rouge en accent : énergie et identité congolaise.
+- Blanc cassé et gris très clair : lisibilité et espaces.
+- Gris anthracite : textes et éléments secondaires.
+
+Éviter les couleurs trop agressives, les animations excessives, les effets de verre omniprésents, les dégradés artificiels et les interfaces surchargées.
+
+Utiliser une typographie moderne, des icônes cohérentes, des cartes de produits élégantes, des photos de qualité et une hiérarchie visuelle claire.
+
+Prévoir :
+- Un logo complet avec le nom Biloko Na Biso.
+- Une icône simplifiée pour les petits écrans.
+- Un favicon pour les navigateurs.
+- Une version transparente du logo.
+- Une version adaptée aux fonds clairs et sombres.
+- Une identité visuelle cohérente sur toutes les pages.
+
+IMPORTANT CONCERNANT LE LOGO :
+Si un logo de Biloko Na Biso est fourni, utilise-le comme référence principale. S'il possède un fond non transparent, détourer proprement le logo afin de supprimer uniquement le fond, sans supprimer les éléments du dessin. Conserver la transparence réelle du fichier PNG.
+
+Ne pas remplacer arbitrairement le logo fourni par un autre. Si aucun logo exploitable n'est disponible, créer une identité visuelle cohérente avec le nom et la mission du projet.
+
+Générer les fichiers appropriés pour le site : favicon.ico, favicon.svg si possible, icônes PNG et logo transparent. Si l'outil ne peut pas créer certains formats, fournir une méthode de conversion fiable.
+
+Utiliser le logo dans l'en-tête, le pied de page, les pages de connexion et d'inscription, les écrans de chargement et les métadonnées appropriées.
+
+### 4. PUBLICS ET TYPES DE COMPTES
+
+Le système doit gérer trois catégories principales d'accès.
+
+A. VISITEURS ET MEMBRES
+
+Tout visiteur peut consulter les pages publiques et découvrir les produits sans devoir créer de compte.
+
+Un visiteur qui crée un compte peut :
+- Enregistrer son adresse e-mail et son mot de passe.
+- Confirmer son adresse e-mail.
+- Se connecter et se déconnecter.
+- Demander une réinitialisation de mot de passe par e-mail.
+- Modifier son mot de passe.
+- Modifier ses informations de profil.
+- Ajouter une photo de profil facultative.
+- Consulter les profils des producteurs.
+- Ajouter des produits à ses favoris.
+- Publier des avis sur les produits, selon les règles de modération.
+- Signaler un produit ou un contenu inapproprié.
+- Contacter les producteurs.
+- Consulter son historique de contacts ou de demandes si cette fonctionnalité est activée.
+
+Les informations personnelles doivent être protégées et ne pas être affichées publiquement sans nécessité.
+
+B. PRODUCTEURS LOCAUX
+
+Les producteurs doivent pouvoir créer un compte professionnel distinct d'un compte visiteur.
+
+Lors de l'inscription, ils doivent renseigner :
+- Nom et prénom du responsable.
+- Adresse e-mail.
+- Numéro de téléphone.
+- Mot de passe.
+- Nom de l'entreprise, de la marque, de la coopérative ou de l'exploitation.
+- Catégorie d'activité.
+- Province et ville ou territoire.
+- Description initiale de l'activité.
+- Acceptation des conditions d'utilisation et de la politique de confidentialité.
+
+Les champs non indispensables peuvent être complétés après l'inscription.
+
+Après la création du compte, le producteur accède à un espace professionnel privé. Il peut compléter son profil, ajouter ses produits, gérer ses contenus et recevoir des demandes de contact.
+
+Prévoir une vérification de l'adresse e-mail et un statut de compte : en attente, actif, suspendu ou refusé.
+
+Ne jamais attribuer automatiquement un badge « Producteur vérifié » sans contrôle réel effectué par l'administrateur.
+
+C. ADMINISTRATEUR
+
+Créer un espace d'administration distinct et protégé.
+
+L'administrateur doit pouvoir gérer les utilisateurs, les producteurs, les produits, les catégories, les avis, les signalements, les contenus éditoriaux, les demandes de vérification et les paramètres du site.
+
+Le rôle administrateur ne doit jamais être attribué à un utilisateur par une simple modification de formulaire côté navigateur.
+
+Les permissions doivent être contrôlées côté serveur.
+
+### 5. PAGE D'ACCUEIL
+
+Créer une page d'accueil attractive et professionnelle.
+
+L'en-tête doit comprendre :
+- Logo Biloko Na Biso.
+- Accueil.
+- Découvrir les produits.
+- Producteurs.
+- Catégories.
+- Histoires et savoir-faire.
+- À propos.
+- Contact.
+- Bouton « Se connecter ».
+- Bouton « Devenir producteur ».
+
+Sur mobile, transformer le menu en navigation compacte et accessible.
+
+Section principale :
+Afficher un grand visuel authentique représentant les produits locaux de la RDC, par exemple des produits agricoles, du café, du cacao, des fruits, des produits transformés, des textiles ou de l'artisanat.
+
+Titre proposé :
+« Découvrez la richesse des produits congolais. »
+
+Texte :
+« Des producteurs passionnés, des savoir-faire uniques et des produits issus de nos terres et de nos ateliers. Découvrez, soutenez et faites grandir l'économie locale. »
+
+Boutons :
+- « Explorer les produits »
+- « Présenter mon entreprise »
+
+Ajouter une barre de recherche visible permettant de rechercher un produit, une marque, un producteur ou une catégorie.
+
+Sections suivantes :
+1. Produits à découvrir.
+2. Producteurs à la une.
+3. Catégories populaires.
+4. Nouveaux produits.
+5. Produits les mieux notés, uniquement si des avis authentiques existent.
+6. Histoires de producteurs.
+7. Pourquoi soutenir les produits locaux ?
+8. Appel à inscription des producteurs.
+9. Présentation de la mission de Biloko Na Biso.
+10. Pied de page complet.
+
+Ne jamais inventer de statistiques présentées comme réelles, de faux témoignages, de faux avis, de faux badges de certification ou de faux producteurs.
+
+Les données de démonstration doivent être clairement identifiées comme telles et remplaçables par de vraies données.
+
+### 6. CATALOGUE DES PRODUITS
+
+Créer une page publique dédiée à la découverte des produits.
+
+Chaque produit doit posséder :
+- Un identifiant unique.
+- Un nom.
+- Une description courte.
+- Une description détaillée.
+- Une ou plusieurs photos.
+- Une vidéo facultative.
+- Une catégorie et éventuellement une sous-catégorie.
+- Le nom du producteur.
+- Un lien vers le profil du producteur.
+- La ville, le territoire et la province d'origine.
+- Le type de production : agricole, artisanal, transformé, manufacturé ou autre.
+- Les matières premières ou ingrédients, lorsqu'ils sont pertinents.
+- Le processus de fabrication ou de transformation.
+- Les formats, tailles, conditionnements ou variantes.
+- Le prix indicatif facultatif.
+- La devise éventuelle : CDF, USD ou autre devise prise en charge.
+- La disponibilité déclarée par le producteur.
+- Les conditions de vente ou de distribution, lorsqu'elles sont communiquées.
+- Les possibilités de vente en gros ou au détail.
+- Les certifications et labels réellement documentés, le cas échéant.
+- La date de publication et la date de dernière mise à jour.
+- Un statut : brouillon, en attente, publié, refusé ou archivé.
+
+Un prix non renseigné doit apparaître comme « Contacter le producteur pour le prix », jamais comme zéro.
+
+Créer des filtres fonctionnels par :
+- Catégorie.
+- Province.
+- Ville ou territoire.
+- Producteur.
+- Type de produit.
+- Disponibilité déclarée.
+- Vente en gros ou au détail.
+- Fourchette de prix si le prix est disponible.
+- Nouveautés.
+
+Ajouter un tri par pertinence, date de publication et popularité calculée à partir de données réelles.
+
+Prévoir une pagination ou un chargement progressif performant.
+
+### 7. CATÉGORIES DE PRODUITS
+
+Prévoir une architecture de catégories administrables, avec au minimum les catégories initiales suivantes :
+
+- Agriculture et céréales.
+- Fruits et légumes.
+- Café, cacao et autres produits de plantation.
+- Produits alimentaires transformés.
+- Boissons et produits naturels.
+- Élevage et produits dérivés.
+- Artisanat et objets faits main.
+- Textiles, vêtements et accessoires.
+- Cosmétique et soins fabriqués localement.
+- Mobilier, décoration et articles pour la maison.
+- Matériaux et produits de construction.
+- Emballages et produits manufacturés.
+- Autres produits congolais.
+
+Les catégories et sous-catégories doivent pouvoir être ajoutées, modifiées, désactivées et réorganisées depuis l'administration.
+
+Ne pas laisser croire qu'un produit est fabriqué en RDC uniquement parce que son vendeur se trouve en RDC. Prévoir un champ expliquant son origine réelle et son degré de transformation locale.
+
+### 8. PROFIL PUBLIC DU PRODUCTEUR
+
+Chaque producteur doit disposer d'une page publique professionnelle.
+
+Cette page doit inclure :
+- Logo ou photo de profil de l'entreprise.
+- Photo du responsable facultative.
+- Nom commercial.
+- Nom du responsable.
+- Description de l'entreprise.
+- Histoire et parcours du producteur.
+- Mission, vision et valeurs.
+- Activités et savoir-faire.
+- Présentation des méthodes de production.
+- Localisation géographique.
+- Date de création facultative.
+- Nombre de produits publiés.
+- Galerie de photos.
+- Vidéos de présentation.
+- Liste des produits disponibles.
+- Informations de contact choisies par le producteur.
+- Liens vers ses réseaux sociaux.
+- Indication des possibilités de partenariat ou de distribution.
+- Avis publiés et note moyenne, calculés à partir d'avis réels.
+- Date de dernière mise à jour.
+
+Le producteur doit pouvoir partager facilement le lien de son profil sur WhatsApp, Facebook, Instagram, TikTok et d'autres réseaux.
+
+Prévoir des URL lisibles, par exemple :
+/producteurs/nom-de-lentreprise
+
+Les profils doivent être adaptés aux téléphones et faciles à consulter.
+
+### 9. ESPACE PRIVÉ DU PRODUCTEUR
+
+Créer un véritable tableau de bord producteur, accessible uniquement après authentification.
+
+Le tableau de bord comprend :
+
+A. Vue d'ensemble
+- Nombre de produits publiés.
+- Nombre de produits en attente de validation.
+- Nombre de vues du profil si les statistiques sont activées.
+- Nombre de vues des produits.
+- Nombre de demandes de contact reçues.
+- Nombre de favoris, uniquement si cette mesure est disponible.
+- Notifications récentes.
+
+B. Gestion du profil
+Le producteur peut modifier :
+- Sa photo de profil ou son logo.
+- Le nom de son entreprise.
+- Le nom du responsable.
+- Sa description personnelle et professionnelle.
+- Son histoire.
+- Ses activités.
+- Sa localisation.
+- Son adresse e-mail selon une procédure sécurisée.
+- Son numéro de téléphone.
+- Ses liens de réseaux sociaux.
+- Ses préférences de contact.
+- Ses informations de partenariat.
+
+C. Gestion des produits
+Permettre au producteur :
+- D'ajouter un produit.
+- De modifier un produit.
+- De supprimer ou archiver un produit.
+- D'enregistrer un brouillon.
+- De prévisualiser une fiche avant publication.
+- D'ajouter plusieurs photos.
+- De réorganiser les photos.
+- D'ajouter une vidéo selon les formats autorisés.
+- De modifier le prix et la disponibilité.
+- De consulter le statut de validation.
+- De voir les raisons d'un refus éventuel.
+- De soumettre de nouveau un produit après correction.
+
+D. Gestion des demandes
+Créer une boîte de réception des demandes de contact.
+
+Chaque demande doit contenir :
+- Le nom de l'expéditeur.
+- Ses coordonnées, selon les informations fournies.
+- Le produit concerné, si applicable.
+- L'objet de la demande.
+- Le message.
+- La date.
+- Le statut : nouvelle, lue, en cours ou clôturée.
+
+Le producteur peut répondre par les moyens de contact disponibles. Si une messagerie interne est implémentée, les messages doivent être conservés de manière sécurisée et accessibles uniquement aux participants autorisés.
+
+E. Paramètres
+- Modifier le mot de passe.
+- Gérer les notifications.
+- Consulter les conditions d'utilisation.
+- Demander la suppression du compte.
+- Se déconnecter de toutes les sessions si cette fonctionnalité est prise en charge.
+
+### 10. RECHERCHE DE PARTENAIRES ET CONTACT DIRECT
+
+Biloko Na Biso n'est pas obligatoirement une boutique qui encaisse les paiements. Sa fonction principale est de mettre les producteurs et les personnes intéressées en relation.
+
+Sur chaque fiche produit et chaque profil de producteur, ajouter des boutons fonctionnels :
+- « Contacter le producteur ».
+- « Demander un devis ».
+- « Proposer un partenariat ».
+- « Contacter sur WhatsApp », si le producteur a renseigné un numéro approprié.
+- « Partager ce produit ».
+
+Prévoir un formulaire de demande comprenant :
+- Nom.
+- Adresse e-mail.
+- Numéro de téléphone facultatif.
+- Type de demande : achat, distribution, partenariat, approvisionnement, information ou autre.
+- Quantité estimée facultative.
+- Message.
+- Consentement aux règles de confidentialité.
+
+Valider les données côté serveur et protéger les formulaires contre le spam.
+
+Le destinataire doit recevoir une notification lorsque cela est configuré. L'expéditeur doit recevoir une confirmation de transmission.
+
+Ne jamais afficher publiquement des adresses e-mail privées ou des numéros personnels sans autorisation.
+
+Ne pas créer de paiement en ligne fictif. Si une fonction de commande est ajoutée ultérieurement, documenter clairement le fonctionnement, les frais, les responsabilités et les éventuelles intégrations de paiement.
+
+### 11. AVIS ET ÉVALUATIONS
+
+Permettre aux membres connectés de laisser des avis constructifs sur les produits.
+
+Chaque avis peut contenir :
+- Une note de 1 à 5 étoiles.
+- Un commentaire.
+- Une date.
+- Le statut de modération.
+- Une réponse du producteur si cette fonctionnalité est activée.
+
+Règles obligatoires :
+- Un visiteur non connecté ne peut pas publier d'avis.
+- Un utilisateur ne doit pas pouvoir publier plusieurs avis actifs pour un même produit sans modifier le précédent.
+- Les utilisateurs peuvent signaler un avis.
+- Les administrateurs peuvent masquer ou supprimer un avis justifié comme inapproprié.
+- Les producteurs ne peuvent pas supprimer arbitrairement les avis négatifs.
+- Les avis ne doivent pas être présentés comme des achats vérifiés si aucun mécanisme ne vérifie réellement l'achat.
+- Les notes moyennes doivent être calculées à partir des avis admissibles réels.
+- Prévoir une modération contre les insultes, le spam, les faux avis et les conflits d'intérêts.
+
+### 12. HISTOIRES ET SAVOIR-FAIRE CONGOLAIS
+
+Créer une rubrique éditoriale consacrée aux producteurs et aux savoir-faire locaux.
+
+Elle doit permettre de publier :
+- Des portraits de producteurs.
+- Des reportages sur les méthodes de production.
+- Des histoires d'entreprises.
+- Des contenus sur les ressources et produits des provinces.
+- Des articles éducatifs sur la transformation locale.
+- Des vidéos de présentation.
+- Des conseils sur les produits.
+- Des initiatives qui valorisent l'entrepreneuriat congolais.
+
+Les contenus doivent pouvoir être gérés par l'administrateur avec un titre, un texte, une image de couverture, une catégorie, un auteur, une date et un statut de publication.
+
+Créer des pages lisibles, avec une bonne mise en valeur des images et des liens vers les producteurs concernés.
+
+Ne publier aucun contenu généré comme un fait réel sans vérification.
+
+### 13. INSCRIPTION, CONNEXION ET MOTS DE PASSE
+
+Implémenter une authentification réelle.
+
+Pages requises :
+- /connexion
+- /inscription
+- /inscription-producteur
+- /mot-de-passe-oublie
+- /reinitialiser-mot-de-passe
+- /verification-email
+- /mon-compte
+
+Fonctionnalités :
+- Inscription avec e-mail et mot de passe.
+- Confirmation de l'adresse e-mail.
+- Connexion sécurisée.
+- Déconnexion.
+- Réinitialisation du mot de passe par lien envoyé par e-mail.
+- Modification du mot de passe.
+- Validation des formulaires.
+- Messages d'erreur compréhensibles.
+- Gestion des sessions.
+- Protection des pages privées.
+- Contrôle des rôles et autorisations côté serveur.
+
+Ne jamais stocker les mots de passe en clair. Utiliser un fournisseur d'authentification fiable ou un système sécurisé reposant sur un hachage adapté et des sessions correctement protégées.
+
+Ne pas inventer de fonctionnalité d'envoi d'e-mail : configurer un service réel ou documenter précisément les variables nécessaires.
+
+Les liens de réinitialisation doivent expirer et ne pouvoir être utilisés de manière abusive.
+
+### 14. ESPACE ADMINISTRATEUR
+
+Créer une interface d'administration professionnelle, distincte de l'espace producteur.
+
+Fonctionnalités :
+
+A. Tableau de bord
+- Nombre de membres.
+- Nombre de producteurs.
+- Nombre de produits publiés.
+- Produits en attente.
+- Demandes de vérification.
+- Avis signalés.
+- Dernières activités pertinentes.
+
+Les indicateurs doivent provenir de la base de données réelle.
+
+B. Gestion des producteurs
+- Consulter les profils.
+- Vérifier les informations communiquées.
+- Accepter, refuser ou suspendre un compte.
+- Ajouter des notes internes de modération.
+- Gérer les demandes de vérification.
+- Attribuer un badge de vérification uniquement après contrôle documenté.
+
+C. Gestion des produits
+- Consulter les produits soumis.
+- Publier, refuser, corriger ou retirer un produit.
+- Consulter les photos et vidéos.
+- Vérifier les informations de provenance.
+- Gérer les signalements.
+- Mettre en avant certains produits avec des critères transparents.
+
+D. Gestion des utilisateurs
+- Rechercher des membres.
+- Consulter leurs rôles et statuts.
+- Suspendre un compte en cas d'abus.
+- Réactiver un compte lorsque cela est justifié.
+- Consulter un historique d'actions administratives.
+
+E. Gestion du contenu
+- Gérer les catégories.
+- Publier les histoires de producteurs.
+- Gérer les pages éditoriales.
+- Modifier les informations du site.
+- Gérer les contenus de la page d'accueil.
+
+F. Paramètres
+- Nom et logo de la plateforme.
+- Coordonnées officielles.
+- Liens des réseaux sociaux.
+- Paramètres de modération.
+- Paramètres de notification.
+- Paramètres de référencement.
+- Gestion des rôles.
+
+Toutes les opérations sensibles doivent être journalisées. Aucun utilisateur ordinaire ne doit pouvoir accéder à l'administration en devinant une URL.
+
+### 15. BASE DE DONNÉES ET ARCHITECTURE
+
+Construire une base de données cohérente et persistante.
+
+Prévoir au minimum les entités suivantes :
+- users
+- profiles
+- producer_profiles
+- products
+- product_images
+- product_categories
+- locations
+- product_reviews
+- favorites
+- contact_requests
+- messages, si la messagerie interne est activée
+- notifications
+- producer_verification_requests
+- content_articles
+- content_categories
+- reports
+- admin_audit_logs
+- platform_settings
+
+Définir correctement les relations, les clés étrangères, les index, les contraintes et les dates de création et de modification.
+
+Les données doivent survivre au rechargement de la page et aux redéploiements du site.
+
+Ne pas utiliser localStorage comme base de données principale. Il peut servir à quelques préférences locales non sensibles.
+
+Choisir une architecture adaptée au projet, par exemple :
+- Frontend : React avec TypeScript et Vite, ou Next.js si un rendu serveur est utile.
+- Styles : Tailwind CSS ou une solution équivalente.
+- Backend et base de données : Supabase avec PostgreSQL et Supabase Storage, ou une alternative fiable adaptée à l'environnement.
+- Authentification : service sécurisé compatible avec l'architecture retenue.
+- Hébergement frontend : Netlify ou une plateforme équivalente.
+- Envoi d'e-mails : service SMTP ou prestataire transactionnel configuré.
+
+Ces choix sont des recommandations, pas une obligation si l'environnement dispose déjà d'une architecture fonctionnelle.
+
+Privilégier les solutions gratuites ou à faible coût lorsque cela est raisonnable, tout en indiquant leurs limites et les éventuelles dépenses nécessaires.
+
+Ne jamais exposer les clés secrètes, les clés privées ou les identifiants administratifs dans le code frontend.
+
+Si Supabase est utilisé, configurer les politiques Row Level Security (RLS) sur toutes les tables contenant des données privées et sur toutes les opérations sensibles.
+
+Fournir un fichier .env.example sans secrets réels et un guide de configuration.
+
+### 16. PHOTOS, VIDÉOS ET STOCKAGE
+
+Les producteurs doivent pouvoir télécharger des images depuis un ordinateur ou un téléphone.
+
+Prévoir :
+- Prévisualisation des images.
+- Compression raisonnable.
+- Vérification des formats et tailles.
+- Limites de téléchargement configurables.
+- Stockage distant sécurisé.
+- Suppression des fichiers inutilisés.
+- Gestion des erreurs de téléchargement.
+- Affichage de solutions de remplacement si une image ne charge pas.
+
+Pour les vidéos, privilégier une intégration adaptée au poids des fichiers et à la bande passante disponible.
+
+Ne pas laisser des fichiers téléversés exécutables ou dangereux être servis directement.
+
+Prévoir des règles de stockage qui empêchent un producteur de modifier ou supprimer les fichiers privés d'un autre compte.
+
+### 17. DESIGN RESPONSIVE ET EXPÉRIENCE UTILISATEUR
+
+Le site doit fonctionner parfaitement sur :
+- Ordinateurs Windows, macOS et Linux.
+- Smartphones Android.
+- iPhone.
+- Tablettes.
+- Écrans de différentes tailles.
+
+L'expérience mobile est une priorité.
+
+Respecter les principes suivants :
+- Navigation claire.
+- Boutons suffisamment grands.
+- Formulaires confortables sur mobile.
+- Images adaptées aux écrans.
+- Aucun débordement horizontal.
+- Aucun texte coupé.
+- Aucun menu impossible à fermer.
+- Chargement progressif des images si nécessaire.
+- Indicateurs de chargement.
+- Messages de succès et d'erreur.
+- Pages vides avec explication utile.
+- Confirmation avant suppression.
+- Retour visuel après chaque action.
+- Navigation clavier.
+- Contrastes lisibles.
+- Textes alternatifs pour les images importantes.
+
+Utiliser des animations légères et utiles, sans nuire aux performances.
+
+### 18. LANGUES ET CONTEXTE CONGOLAIS
+
+La langue principale du site doit être le français.
+
+Préparer l'architecture pour pouvoir ajouter ultérieurement le lingala, le swahili, le kikongo et le tshiluba.
+
+Utiliser des noms de lieux et des informations géographiques adaptés à la RDC.
+
+Prévoir les provinces, les villes et les territoires à partir d'une liste administrable et maintenable.
+
+Ne pas figer les localisations dans le code si elles peuvent être gérées depuis la base de données.
+
+Utiliser des formats de dates et des prix adaptés au public ciblé.
+
+Prévoir une interface accessible même avec une connexion internet lente.
+
+### 19. PIED DE PAGE ET PROPRIÉTÉ DE LITTLE GIANTS
+
+Le pied de page doit être présent sur toutes les pages publiques.
+
+Il doit inclure :
+- Le logo de Biloko Na Biso.
+- Une courte présentation de la plateforme.
+- Les liens de navigation.
+- Les catégories principales.
+- Les coordonnées officielles de Biloko Na Biso lorsqu'elles seront définies.
+- Les liens vers les réseaux sociaux lorsqu'ils seront disponibles.
+- La politique de confidentialité.
+- Les conditions d'utilisation.
+- Les règles de publication.
+- Les informations de propriété intellectuelle.
+
+IMPORTANT : ajouter clairement et de façon permanente la mention suivante :
+
+« Biloko Na Biso est un produit de Little Giants. »
+
+Ajouter un lien cliquable vers le site officiel de Little Giants :
+https://littlegiantrdc.netlify.app/
+
+Adresse e-mail officielle de Little Giants :
+littlegiantrdc@gmail.com
+
+Numéro WhatsApp de Little Giants :
++243858960478
+
+Lien WhatsApp à utiliser :
+https://wa.me/243858960478
+
+Le lien WhatsApp doit ouvrir une conversation avec Little Giants. Sur mobile, il doit fonctionner avec WhatsApp si l'application est disponible, et permettre l'ouverture de WhatsApp Web ou d'une page appropriée sur ordinateur.
+
+Prévoir un logo Little Giants dans le pied de page. Le fichier officiel sera fourni séparément par le propriétaire du projet. Ne pas inventer un nouveau logo en prétendant qu'il s'agit du logo officiel.
+
+Tant que le fichier n'est pas fourni, utiliser un emplacement prévu pour recevoir le logo officiel, sans afficher une image trompeuse.
+
+La mention « Un produit de Little Giants » doit être discrète mais lisible, avec un lien vers le site officiel.
+
+### 20. RÉFÉRENCEMENT NATUREL ET PARTAGE
+
+Optimiser le site pour les moteurs de recherche.
+
+Prévoir :
+- Des titres et descriptions propres à chaque page.
+- Des URL lisibles.
+- Des balises Open Graph.
+- Des images de partage.
+- Un sitemap XML.
+- Un fichier robots.txt approprié.
+- Des balises canoniques.
+- Des données structurées pertinentes lorsque les informations sont disponibles.
+- Des pages publiques indexables.
+- Des pages privées exclues de l'indexation.
+- Des titres et descriptions adaptés aux produits et producteurs.
+
+Ne pas exposer d'informations personnelles dans les métadonnées publiques.
+
+Chaque fiche produit et chaque profil producteur doit pouvoir être partagé facilement sur WhatsApp, Facebook et d'autres plateformes.
+
+### 21. PERFORMANCE ET FIABILITÉ
+
+Optimiser les performances :
+- Réduire le poids des images.
+- Charger les images à la demande.
+- Limiter les requêtes inutiles.
+- Paginer les résultats.
+- Éviter les bibliothèques superflues.
+- Mettre en cache les ressources publiques lorsque cela est approprié.
+- Gérer les erreurs réseau.
+- Prévoir des états de chargement.
+- Préserver la stabilité des pages.
+
+Ne pas promettre un temps de chargement précis sans mesure réelle.
+
+Le site doit être rapide sur une connexion mobile raisonnable et rester utilisable lorsque certaines ressources échouent à charger.
+
+### 22. SÉCURITÉ ET CONFIDENTIALITÉ
+
+Mettre en œuvre :
+- Contrôles d'accès côté serveur.
+- Validation des données côté serveur.
+- Protection contre les injections.
+- Protection contre les abus des formulaires.
+- Limitation du nombre de requêtes sur les opérations sensibles.
+- Gestion sécurisée des sessions.
+- Protection des routes privées.
+- Protection des téléversements.
+- Politique de confidentialité.
+- Consentement approprié lorsque nécessaire.
+- Procédure de suppression de compte.
+- Sauvegardes adaptées à la base de données.
+- Journalisation des actions administratives.
+
+Ne jamais intégrer de mot de passe par défaut public ou de compte administrateur universel.
+
+Ne jamais inclure de vraies clés secrètes dans les fichiers livrés.
+
+### 23. PAGES À CRÉER
+
+Créer au minimum les pages suivantes :
+
+Pages publiques :
+- Accueil.
+- Découvrir les produits.
+- Détail d'un produit.
+- Liste des producteurs.
+- Profil public d'un producteur.
+- Catégories.
+- Histoire et savoir-faire.
+- Article individuel.
+- À propos.
+- Contact.
+- FAQ.
+- Conditions d'utilisation.
+- Politique de confidentialité.
+- Règles de publication.
+- Page 404.
+
+Pages de compte :
+- Inscription visiteur.
+- Inscription producteur.
+- Connexion.
+- Mot de passe oublié.
+- Réinitialisation du mot de passe.
+- Vérification de l'adresse e-mail.
+- Profil membre.
+- Favoris.
+- Paramètres du compte.
+
+Espace producteur :
+- Tableau de bord.
+- Mon profil professionnel.
+- Mes produits.
+- Ajouter un produit.
+- Modifier un produit.
+- Aperçu d'un produit.
+- Mes demandes de contact.
+- Notifications.
+- Paramètres professionnels.
+
+Administration :
+- Connexion administrateur sécurisée.
+- Tableau de bord.
+- Gestion des utilisateurs.
+- Gestion des producteurs.
+- Vérification des producteurs.
+- Gestion des produits.
+- Modération des avis.
+- Signalements.
+- Catégories.
+- Articles et contenus.
+- Paramètres de la plateforme.
+- Journal d'activité.
+
+### 24. DONNÉES DE DÉMONSTRATION
+
+Pour permettre de tester immédiatement le site, ajouter si nécessaire quelques données de démonstration clairement identifiées.
+
+Exemples de catégories :
+- Café congolais.
+- Cacao.
+- Farine de manioc.
+- Huile de palme.
+- Miel local.
+- Artisanat.
+- Textiles.
+- Produits transformés.
+
+Ces exemples sont uniquement des illustrations. Ne pas inventer de véritables entreprises, d'adresses, de numéros, de certifications ou d'avis clients.
+
+Prévoir un moyen de retirer les données de démonstration avant la mise en production.
+
+### 25. TESTS OBLIGATOIRES
+
+Avant la livraison, tester au minimum :
+
+1. L'ouverture de toutes les pages.
+2. L'inscription d'un visiteur.
+3. L'inscription d'un producteur.
+4. La confirmation de l'adresse e-mail.
+5. La connexion et la déconnexion.
+6. La réinitialisation du mot de passe.
+7. La modification des informations du profil.
+8. La création d'un produit.
+9. La modification et la suppression d'un produit.
+10. Le téléversement des images.
+11. Le fonctionnement des filtres et de la recherche.
+12. L'affichage public d'un produit publié.
+13. Le fonctionnement des demandes de contact.
+14. Les liens WhatsApp.
+15. Les avis et la modération.
+16. Les restrictions d'accès entre utilisateurs.
+17. Les autorisations administrateur.
+18. Les politiques de sécurité de la base de données.
+19. L'affichage sur mobile et ordinateur.
+20. Le comportement en cas de réseau lent ou d'erreur serveur.
+21. Les liens du pied de page.
+22. Les métadonnées et le favicon.
+23. L'absence de boutons sans action.
+24. L'absence d'erreurs bloquantes dans la console.
+25. La persistance réelle des données après actualisation.
+
+Si un test ne peut pas être exécuté faute de configuration ou de service externe, le signaler clairement au lieu de prétendre qu'il a réussi.
+
+### 26. LIVRABLES ATTENDUS
+
+Livrer un projet complet comprenant :
+- Tous les fichiers source.
+- Une architecture de projet claire.
+- Un site frontend fonctionnel.
+- Le backend ou les services configurés.
+- Les schémas et migrations de base de données.
+- Les politiques de sécurité.
+- Les pages publiques et privées.
+- Les interfaces producteur et administrateur.
+- Les ressources graphiques.
+- Les favicons et les icônes.
+- Un fichier .env.example.
+- Un fichier README.md.
+- Les instructions de configuration.
+- Les instructions de lancement local.
+- Les instructions de déploiement.
+- Les étapes de configuration de la base de données.
+- Les étapes de configuration de l'authentification.
+- Les étapes de configuration des e-mails.
+- Les limites des services gratuits utilisés.
+- Une liste des tests exécutés et de leurs résultats.
+
+Si tu peux générer une archive ZIP, fournis une archive complète contenant le projet, prête à être téléchargée et ouverte dans un environnement de développement.
+
+Ne mets jamais de secrets de production dans l'archive.
+
+### 27. DÉPLOIEMENT
+
+Préparer le site pour un déploiement sur Netlify ou une plateforme équivalente, selon l'architecture retenue.
+
+Configurer les routes pour que les pages internes fonctionnent aussi lorsqu'on recharge directement leur URL.
+
+Documenter :
+- Les variables d'environnement.
+- La connexion à la base de données.
+- Les URL autorisées pour l'authentification.
+- Les redirections après connexion.
+- Le domaine de production.
+- Les paramètres d'envoi des e-mails.
+- Les paramètres de stockage.
+- Les procédures de migration.
+- Les sauvegardes.
+
+Si le projet nécessite un backend externe, ne pas prétendre que le simple dépôt du dossier frontend suffit à rendre toutes les fonctions opérationnelles. Indiquer précisément ce qu'il faut connecter et configurer.
+
+### 28. RÈGLES DE DÉVELOPPEMENT
+
+- Ne pas livrer une simple maquette.
+- Ne pas simuler une authentification avec de faux comptes.
+- Ne pas remplacer la base de données par des tableaux JavaScript en mémoire.
+- Ne pas utiliser de faux boutons.
+- Ne pas inventer des avis ou des statistiques.
+- Ne pas laisser des pages importantes vides.
+- Ne pas exposer les données privées.
+- Ne pas supprimer les fichiers utiles du projet existant.
+- Ne pas ignorer les erreurs.
+- Ne pas déclarer une fonctionnalité terminée sans l'avoir testée.
+- Utiliser un code lisible, modulaire et maintenable.
+- Ajouter des commentaires uniquement lorsqu'ils sont utiles.
+- Favoriser la fiabilité et la simplicité plutôt que des fonctionnalités inutiles.
+
+Si une intégration externe n'est pas disponible, créer une interface propre et expliquer les étapes exactes nécessaires à son activation.
+
+### 29. ORDRE DE RÉALISATION
+
+Procède dans cet ordre :
+
+Étape 1 : analyser l'environnement et définir l'architecture.
+
+Étape 2 : créer l'identité visuelle et les composants réutilisables.
+
+Étape 3 : créer les pages publiques et le catalogue.
+
+Étape 4 : mettre en place la base de données et l'authentification.
+
+Étape 5 : développer l'espace producteur.
+
+Étape 6 : développer les demandes de contact, les avis et les favoris.
+
+Étape 7 : développer l'administration et la modération.
+
+Étape 8 : intégrer les images, les médias, le référencement et les outils de partage.
+
+Étape 9 : tester les fonctionnalités, la sécurité et le responsive.
+
+Étape 10 : corriger les erreurs et préparer le déploiement.
+
+Étape 11 : fournir le projet complet et le guide de mise en ligne.
+
+Ne t'arrête pas après avoir créé la page d'accueil. Continue jusqu'à avoir réalisé toutes les fonctionnalités possibles dans l'environnement disponible.
+
+### 30. RÉSULTAT FINAL
+
+Le résultat doit être un site professionnel digne d'une véritable entreprise numérique congolaise.
+
+Biloko Na Biso doit faciliter la découverte des produits locaux, donner une visibilité aux producteurs, renforcer la confiance entre les acteurs économiques et favoriser les opportunités commerciales.
+
+Le site doit être esthétique, intuitif, rapide, sécurisé, accessible, maintenable et adapté aux réalités de la RDC.
+
+La propriété de Little Giants doit être visible dans le pied de page de toutes les pages publiques.
+
+Commence maintenant par analyser l'environnement, puis construis le projet directement. À la fin, fournis un bilan honnête des fonctionnalités réalisées, celles qui restent à configurer et les instructions pour obtenir un site réellement opérationnel.

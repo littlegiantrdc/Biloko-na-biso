@@ -1,0 +1,6 @@
+{
+  "name": "Biloko Na Biso",
+  "description": "Plateforme professionnelle de promotion et valorisation des produits locaux de la République Démocratique du Congo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
